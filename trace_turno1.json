@@ -1,0 +1,95 @@
+[
+  {
+    "tipo": "human",
+    "contenido": "¿Cuántos pedidos tuvo el cliente 102 y cuál fue el total?",
+    "tool_calls": null
+  },
+  {
+    "tipo": "human",
+    "contenido": "¿Cuántos pedidos tuvo el cliente 102 y cuál fue el total?",
+    "tool_calls": null
+  },
+  {
+    "tipo": "human",
+    "contenido": "¿Cuántos pedidos tuvo el cliente 102 y cuál fue el total?",
+    "tool_calls": null
+  },
+  {
+    "tipo": "human",
+    "contenido": "¿Cuántos pedidos tuvo el cliente 102 y cuál fue el total?",
+    "tool_calls": null
+  },
+  {
+    "tipo": "human",
+    "contenido": "¿Cuántos pedidos tuvo el cliente 102 y cuál fue el total?",
+    "tool_calls": null
+  },
+  {
+    "tipo": "human",
+    "contenido": "¿Cuántos pedidos tuvo el cliente 102 y cuál fue el total?",
+    "tool_calls": null
+  },
+  {
+    "tipo": "ai",
+    "contenido": "",
+    "tool_calls": [
+      {
+        "name": "buscar_pedidos",
+        "args": {
+          "cliente_id": 102
+        },
+        "id": "call_6947267022975224940",
+        "type": "tool_call"
+      }
+    ]
+  },
+  {
+    "tipo": "tool",
+    "contenido": "{\"pedidos\": 3, \"total\": 14500}",
+    "tool_calls": null
+  },
+  {
+    "tipo": "ai",
+    "contenido": "El cliente 102 tuvo un total de 3 pedidos y el monto total gastado fue de $14,500.",
+    "tool_calls": []
+  },
+  {
+    "tipo": "human",
+    "contenido": "¿Y el último pedido?",
+    "tool_calls": null
+  },
+  {
+    "tipo": "ai",
+    "contenido": "Lo siento, pero la herramienta disponible (`buscar_pedidos`) solo me proporciona el número total de pedidos y la suma del monto gastado por el cliente. No tengo acceso a los detalles específicos de cada pedido individual (como fechas, productos o el monto de la última transacción).",
+    "tool_calls": []
+  },
+  {
+    "tipo": "human",
+    "contenido": "¿Cuántos pedidos tuvo el cliente 102 y cuál fue el total?",
+    "tool_calls": null
+  },
+  {
+    "tipo": "ai",
+    "contenido": "",
+    "tool_calls": [
+      {
+        "name": "buscar_pedidos",
+        "args": {
+          "cliente_id": 102
+        },
+        "id": "call_4551686480210750491",
+        "type": "tool_call"
+      }
+    ]
+  },
+  {
+    "tipo": "tool",
+    "contenido": "{\"pedidos\": 3, \"total\": 14500}",
+    "tool_calls": null
+  },
+  {
+    "tipo": "ai",
+    "contenido": "El cliente 102 tuvo un total de 3 pedidos y el monto total gastado fue de $14,500.",
+    "tool_calls": []
+  }
+]

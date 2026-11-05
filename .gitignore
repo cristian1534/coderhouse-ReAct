@@ -1,0 +1,38 @@
+# Entorno virtual
+venv/
+.venv/
+env/
+ENV/
+
+# Variables de entorno (API keys)
+.env
+.env.*
+!.env.example
+
+# Base de datos de checkpoints (persistencia local)
+checkpoints.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Herramientas / editores
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+*.log

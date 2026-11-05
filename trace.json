@@ -1,0 +1,28 @@
+{
+  "sesion": "sesion-102",
+  "turno_1": {
+    "usuario": "¿Cuántos pedidos tuvo el cliente 102 y cuál fue el total?",
+    "razonamiento": [
+      {
+        "paso": 1,
+        "accion": "El agente decide llamar a la herramienta",
+        "herramienta": "buscar_pedidos",
+        "argumentos": {"cliente_id": 102}
+      },
+      {
+        "paso": 2,
+        "resultado_herramienta": {"pedidos": 3, "total": 14500}
+      },
+      {
+        "paso": 3,
+        "accion": "El agente razona que ya tiene los datos y responde"
+      }
+    ],
+    "respuesta_final": "El cliente 102 tuvo 3 pedidos por un total de $14.500."
+  },
+  "turno_2": {
+    "usuario": "¿Y el último?",
+    "razonamiento": "El agente utiliza el contexto persistido en el thread_id para responder.",
+    "respuesta_final": "El último pedido del cliente 102 forma parte de los 3 pedidos registrados."
+  }
+}
